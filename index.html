@@ -121,102 +121,55 @@
       </div>
     </div>
 
-    <!-- Main Content Area -->
-    <div class="lg:pl-60 dark:pintree-bg-gray-900 flex flex-col min-h-screen">
-      <div
-        class="items-center justify-between sticky top-0 z-40 flex h-16 shrink-0 gap-x-4 border-b border-gray-200 dark:pintree-border-gray-800 bg-white dark:pintree-bg-gray-900 px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
-        <div class="h-full items-center flex flex-1 gap-x-4 self-stretch lg:gap-x-6 justify-between">
-          <div class="flex gap-x-4 justify-between">
-            <div class="hidden lg:block relative w-72 h-full items-center justify-between">
-              <button id="searchButton" class="absolute h-full text-gray-400 rounded">
-                <svg class="pointer-events-none absolute inset-y-0 left-0 h-full w-5 text-gray-400" viewBox="0 0 20 20"
-                  fill="currentColor" aria-hidden="true">
-                  <path fill-rule="evenodd"
-                    d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </button>
-              <input id="searchInput" type="search"
-                class="text-sm text-gray-900 dark:text-gray-400 pl-8 h-full border-0 focus:outline-none focus:ring-0 dark:pintree-bg-gray-900"
-                placeholder="查找书签......">
-              <button id="clearSearchButton" class="text-sm text-gray-500 mr-4 rounded hidden">Clear</button>
-            </div>
-
-          </div>
-          <a href="" class="lg:hidden ml-4 font-extrabold text-2xl dark:text-white">书签</a>
-          <div class="relative">
-            <button id="themeToggleButton" type="button" aria-label="Switch theme"
-              class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:pintree-bg-gray-900 dark:ring-white/10 dark:hover:ring-white/20">
-              <svg id="sunIcon" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                aria-hidden="true"
-                class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
-                <path
-                  d="M8 12.25A4.25 4.25 0 0 1 12.25 8v0a4.25 4.25 0 0 1 4.25 4.25v0a4.25 4.25 0 0 1-4.25 4.25v0A4.25 4.25 0 0 1 8 12.25v0Z">
-                </path>
-                <path
-                  d="M12.25 3v1.5M21.5 12.25H20M18.791 18.791l-1.06-1.06M18.791 5.709l-1.06 1.06M12.25 20v1.5M4.5 12.25H3M6.77 6.77 5.709 5.709M6.77 17.73l-1.061 1.061"
-                  fill="none"></path>
-              </svg>
-              <svg id="moonIcon" viewBox="0 0 24 24" aria-hidden="true"
-                class="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500">
-                <path
-                  d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z"
-                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-          </div>
+    <!-- Main content area -->
+    <main class="mt-4 dark:pintree-bg-gray-900 flex-grow">
+      <div id="loading-spinner" class="flex justify-center items-center h-full">
+        <div class="loader ease-linear rounded-full border-2 border-t-2 border-gray-400 h-6 w-6"></div>
+      </div>
+      <div id="breadcrumbs" class="mt-2 px-6 text-sm text-gray-400 flex justify-between items-center">
+        <div id="breadcrumbs-path" class="">
+          <!-- Breadcrumbs will be inserted here -->
         </div>
       </div>
+      <div id="bookmarks" class="grid gap-6 p-6">
+        <!-- Bookmark cards will be inserted here -->
+      </div>
+    </main>
 
-      <!-- Main content area -->
-      <main class="mt-4 dark:pintree-bg-gray-900 flex-grow">
-        <div id="loading-spinner" class="flex justify-center items-center h-full">
-          <div class="loader ease-linear rounded-full border-2 border-t-2 border-gray-400 h-6 w-6"></div>
-        </div>
-        <div id="breadcrumbs" class="mt-2 px-6 text-sm text-gray-400 flex justify-between items-center">
-          <div id="breadcrumbs-path" class="">
-            <!-- Breadcrumbs will be inserted here -->
-          </div>
-        </div>
-        <div id="bookmarks" class="grid gap-6 p-6">
-          <!-- Bookmark cards will be inserted here -->
-        </div>
-      </main>
-
-    </div>
   </div>
 
   <script>
+    // Define search URLs
+    const baiduSearchURL = "https://www.baidu.com/s?wd=";
+    const googleSearchURL = "https://www.google.com/search?q=";
+
     document.addEventListener('DOMContentLoaded', () => {
-      // Variables for sidebar elements
-      const openSidebarButton = document.getElementById('open-sidebar-button');
-      const closeSidebarButton = document.getElementById('close-sidebar-button');
-      const offCanvasMenu = document.getElementById('off-canvas-menu');
-      const offCanvasBackdrop = document.getElementById('off-canvas-backdrop');
-      const offCanvasContent = document.getElementById('off-canvas-content');
+      // Variables for search elements
+      const searchInput = document.getElementById('searchInput');
+      const baiduSearchButton = document.createElement('button');
+      const googleSearchButton = document.createElement('button');
 
-      // Function to open the sidebar
-      const openSidebar = () => {
-        offCanvasMenu.classList.remove('hidden');
-        setTimeout(() => {
-          offCanvasBackdrop.classList.add('opacity-100');
-          offCanvasContent.classList.add('translate-x-0');
-        }, 10);
-      };
+      // Style and add text to buttons
+      baiduSearchButton.innerText = '百度搜索';
+      baiduSearchButton.classList.add('text-sm', 'text-gray-500', 'ml-2', 'rounded', 'bg-gray-100', 'hover:bg-gray-200', 'px-2', 'py-1');
+      googleSearchButton.innerText = '谷歌搜索';
+      googleSearchButton.classList.add('text-sm', 'text-gray-500', 'ml-2', 'rounded', 'bg-gray-100', 'hover:bg-gray-200', 'px-2', 'py-1');
 
-      // Function to close the sidebar
-      const closeSidebar = () => {
-        offCanvasBackdrop.classList.remove('opacity-100');
-        offCanvasContent.classList.remove('translate-x-0');
-        setTimeout(() => {
-          offCanvasMenu.classList.add('hidden');
-        }, 300); // Match the duration of the transition
-      };
+      // Append buttons after the search input
+      const searchContainer = searchInput.parentElement;
+      searchContainer.appendChild(baiduSearchButton);
+      searchContainer.appendChild(googleSearchButton);
 
-      // Event listeners for open and close buttons
-      openSidebarButton.addEventListener('click', openSidebar);
-      closeSidebarButton.addEventListener('click', closeSidebar);
-      offCanvasBackdrop.addEventListener('click', closeSidebar); // Close sidebar when clicking on the backdrop
+      // Event listeners for search buttons
+      baiduSearchButton.addEventListener('click', () => {
+        const query = searchInput.value;
+        window.open(baiduSearchURL + encodeURIComponent(query), '_blank');
+      });
+
+      googleSearchButton.addEventListener('click', () => {
+        const query = searchInput.value;
+        window.open(googleSearchURL + encodeURIComponent(query), '_blank');
+      });
     });
 
     // Search functionality
