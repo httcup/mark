@@ -139,9 +139,41 @@
               </button>
               <input id="searchInput" type="search"
                 class="text-sm text-gray-900 dark:text-gray-400 pl-8 h-full border-0 focus:outline-none focus:ring-0 dark:pintree-bg-gray-900"
-                placeholder="Search...">
+                placeholder="查找书签......">
               <button id="clearSearchButton" class="text-sm text-gray-500 mr-4 rounded hidden">Clear</button>
             </div>
+             <!--搜索开始-->
+        <div id="search" class="s-search">
+            <div id="search-list" class="hide-type-list">
+                <div class="search-group group-a s-current" style="padding-left: 20px">
+                    <ul class="search-type">
+                        <li><input hidden="" type="radio" name="type" id="type-google" value="https://metaso.cn/?q=" data-placeholder="秘塔AI 搜索"><label for="type-google"><span style="color:#3B83FA">秘塔</span></label></li>
+                        <li><input checked="" hidden="" type="radio" name="type" id="type-360" value="https://so.360.com/?q=" data-placeholder="360 AI搜索"><label for="type-360"><span style="color:#2100E0">360</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-tiangong" value="https://tiangong.cn/result/?q=" data-placeholder="天工 AI 搜索"><label for="type-tiangong"><span style="color:#b1870b">天工</span></label></li>
+                        <li><input checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="你自己不会百度吗？"><label for="type-baidu"><span style="color:#2100E0">百度</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-guge" value="https://www.google.com.hk/search?hl=zh-CN&q=" data-placeholder="谷歌搜索"><label for="type-guge"><span style="color:#3B83FA">谷歌</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="必应搜索"><label for="type-bing"><span style="color:#2100E0">必应</span></label></li><br>
+                        <li><input hidden="" type="radio" name="type" id="type-weibo" value="https://s.weibo.com/weibo/" data-placeholder="微博搜索"><label for="type-weibo"><span style="color:#F7DC6F">微博</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-douyin" value="https://www.douyin.com/search/" data-placeholder="抖音搜索"><label for="type-douyin"><span style="color:#212F3C">抖音</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-xiao" value="https://www.xiaohongshu.com/search_result?keyword=" data-placeholder="小红书搜索"><label for="type-xiao"><span style="color:#FF3352">小红书</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-soupian" value="https://soupian.pro/search?key=" data-placeholder="电影、剧集、综艺、动漫"><label for="type-soupian"><span style="color:#b1870b">影视</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-xs" value="https://www.nosetime.com/search.php?x=0&y=0&word=" data-placeholder="香水时代搜索"><label for="type-xs"><span style="color:#3B83FA">香水</span></label></li>
+                    </ul>
+                </div>
+            </div>
+            <form action="https://metaso.cn/?q=" method="get" target="_blank" id="super-search-fm">
+                <input type="text" id="search-text" placeholder="搜索" style="outline:0" autocomplete="off">
+                <button class="submit" type="submit"><svg style="width: 20px; height: 20px; margin:7px 0; color: #29f;" class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-sousuo"></use>
+                    </svg><span></button>
+                <ul id="word" style="display: none;"></ul>
+            </form>
+            <div class="set-check hidden-xs">
+                <input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off">
+            </div>
+        </div>
+        <!--搜索结束-->
+
           </div>
           <a href="" class="lg:hidden ml-4 font-extrabold text-2xl dark:text-white">书签</a>
           <div class="relative">
