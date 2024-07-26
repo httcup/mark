@@ -2,7 +2,7 @@
   {
     "type": "folder",
     "addDate": 1704090424755,
-    "title": "书签栏",
+    "title": "书签夹",
     "children": [
       {
         "type": "link",
@@ -10,13 +10,6 @@
         "title": "小胡小胡的书签",
         "icon": "https://logo.clearbit.com/httcup.github.io",
         "url": "https://httcup.github.io/"
-      },
-      {
-        "type": "link",
-        "addDate": 1718593627986,
-        "title": "小胡书签夹 xhxh.vip",
-        "icon": "https://logo.clearbit.com/httcup.github.io",
-        "url": "https://httcup.github.io/x/"
       },
       {
         "type": "folder",
