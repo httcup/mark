@@ -166,11 +166,44 @@
 					style="width: 100%; ">
 					<div class=" gap-x-4 justify-between">
 						<a href="" class="lg:hidden ml-4 font-extrabold text-2xl dark:text-white">书签</a>
-						<input id="searchInput" style="width: 85%; border-radius: 15px; margin-top: 10px;"
-								placeholder="搜索......">
-						<button id="searchButton" class="submit" type="submit"><svg style="width: 20px; height: 20px; margin:7px 0; color: #29f;" class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-sousuo">搜索</use></svg><span>
-						</button>
+						<style>
+        .search-container {
+            position: relative;
+            width: 85%; /* 容器的宽度与输入框的宽度一致 */
+            margin-top: 10px;
+        }
+
+        .search-input {
+            width: 100%; /* 输入框宽度占满容器 */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 15px; /* 圆角 */
+            box-sizing: border-box; /* 包括内边距和边框 */
+            height: 40px; /* 输入框高度 */
+        }
+
+        .search-button {
+            position: absolute;
+            right: 0; /* 右侧对齐 */
+            top: 0; /* 顶部对齐 */
+            height: 100%; /* 高度与输入框一致 */
+            width: 80px;
+            border-radius: 15px; /* 圆角 */
+            background-color: #3cb884;
+            color: white;
+            border: none; /* 移除边框 */
+            cursor: pointer;
+            box-sizing: border-box; /* 包括内边距和边框 */
+        }
+
+        .search-button:hover {
+            background-color: #36a573;
+        }
+    </style>
+    <div class="search-container">
+        <input id="searchInput" class="search-input" placeholder="搜索......">
+        <button id="searchButton" class="search-button">搜索</button>
+    </div>
 						</div>
 				
 					<div>
