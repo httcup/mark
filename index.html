@@ -169,12 +169,39 @@
 
 					
 						<a href="" class="lg:hidden ml-4 font-extrabold text-2xl dark:text-white">书签</a>
-							<input id="searchInput" style="width: 85%; border-radius: 15px; margin-top: 10px;"
-								placeholder="搜索......">
-							<button id="searchButton" value=""
-								style="background-color: #3cb884;color: white; height: 40px; width: 80px; border-radius: 15px;">
-								搜索
-							</button>
+							<style>
+        .search-container {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 15px 0 0 15px;
+            outline: none;
+        }
+
+        .search-button {
+            background-color: #3cb884;
+            color: white;
+            border: 1px solid #3cb884;
+            border-radius: 0 15px 15px 0;
+            height: 40px;
+            padding: 0 20px;
+            cursor: pointer;
+        }
+
+        .search-button:hover {
+            background-color: #36a573;
+        }
+    </style>
+    <div class="search-container">
+        <input id="searchInput" class="search-input" placeholder="搜索......">
+        <button id="searchButton" class="search-button">搜索</button>
+    </div>
 
 						</div>
 				
