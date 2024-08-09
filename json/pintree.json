@@ -321,6 +321,20 @@
                 "title": "qrbtf二维码生成",
                 "icon": "https://logo.clearbit.com/qrbtf.com",
                 "url": "https://qrbtf.com/zh"
+              },
+              {
+                "type": "link",
+                "addDate": 1723084795377,
+                "title": "业务登录",
+                "icon": "https://logo.clearbit.com/xw.ju72.cn",
+                "url": "http://xw.ju72.cn/home/user/index.html"
+              },
+              {
+                "type": "link",
+                "addDate": 1723165002057,
+                "title": "mac",
+                "icon": "https://logo.clearbit.com/7775f4b4b5044198588baedf4320c286.slrc.oray.com",
+                "url": "https://7775f4b4b5044198588baedf4320c286.slrc.oray.com/control/module/webdesktop"
               }
             ]
           },
@@ -42186,9 +42200,30 @@
               {
                 "type": "link",
                 "addDate": 1722650169993,
-                "title": "MaisonFrancisKurkdjian梵诗柯香",
+                "title": "梵诗柯香MaisonFrancisKurkdjian",
                 "icon": "https://logo.clearbit.com/maisonfranciskurkdjian.tmall.com",
                 "url": "https://maisonfranciskurkdjian.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.76055610XB0v5A"
+              },
+              {
+                "type": "link",
+                "addDate": 1723107167767,
+                "title": "蒂普提克diptyque",
+                "icon": "https://logo.clearbit.com/diptyque.tmall.com",
+                "url": "https://diptyque.tmall.com/shop/view_shop.htm?from_branding=true&ali_trackid=41_4b118befcdd7e46586f8ef76f3961b69"
+              },
+              {
+                "type": "link",
+                "addDate": 1723107544670,
+                "title": "古驰GUCCI",
+                "icon": "https://logo.clearbit.com/guccibeauty.tmall.com",
+                "url": "https://guccibeauty.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.56cb7633dDaqL2"
+              },
+              {
+                "type": "link",
+                "addDate": 1723108307969,
+                "title": "罗意威LOEWE",
+                "icon": "https://logo.clearbit.com/loeweperfume.tmall.com",
+                "url": "https://loeweperfume.tmall.com/shop/view_shop.htm?spm=a230r.7195193.1997079397.2.573e2bcfbk7HDw"
               }
             ]
           },
@@ -42470,6 +42505,13 @@
             "title": "Free Font - 商用免费字体",
             "icon": "https://logo.clearbit.com/wangchujiang.com",
             "url": "https://wangchujiang.com/free-font/"
+          },
+          {
+            "type": "link",
+            "addDate": 1722934026051,
+            "title": "骂人宝典-口吐芬芳",
+            "icon": "https://logo.clearbit.com/dians.notion.site",
+            "url": "https://dians.notion.site/e06768a8700e4c7ea3ba9f4fe269207e"
           }
         ]
       }
