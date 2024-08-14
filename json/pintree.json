@@ -331,10 +331,17 @@
               },
               {
                 "type": "link",
-                "addDate": 1723165002057,
-                "title": "mac",
-                "icon": "https://logo.clearbit.com/7775f4b4b5044198588baedf4320c286.slrc.oray.com",
-                "url": "https://7775f4b4b5044198588baedf4320c286.slrc.oray.com/control/module/webdesktop"
+                "addDate": 1723170638678,
+                "title": "紫微派紫微斗数排盘",
+                "icon": "https://logo.clearbit.com/ziwei.pub",
+                "url": "https://ziwei.pub/astrolabe/"
+              },
+              {
+                "type": "link",
+                "addDate": 1723531888106,
+                "title": "Mac",
+                "icon": "https://logo.clearbit.com/sunlogin.oray.com",
+                "url": "https://sunlogin.oray.com/share?shareid=1441678765"
               }
             ]
           },
@@ -42427,6 +42434,20 @@
                 "title": "博柏利Burberry ",
                 "icon": "https://logo.clearbit.com/tw.burberry.com",
                 "url": "https://tw.burberry.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1723620423430,
+                "title": "罗嘉德芬Roja Dove",
+                "icon": "https://logo.clearbit.com/rojadovehauteparfumerie.com",
+                "url": "https://rojadovehauteparfumerie.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1723620672917,
+                "title": "欧梦德·杰尼Ormonde Jayne",
+                "icon": "https://logo.clearbit.com/ormondejayne.com",
+                "url": "https://ormondejayne.com/"
               }
             ]
           }
