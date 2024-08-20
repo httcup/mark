@@ -29,6 +29,125 @@
             "title": "我的常用",
             "children": [
               {
+                "type": "folder",
+                "addDate": 1724119445204,
+                "title": "个人用自媒体",
+                "children": [
+                  {
+                    "type": "link",
+                    "addDate": 1724120544569,
+                    "title": "微信公众号",
+                    "icon": "https://logo.clearbit.com/mp.weixin.qq.com",
+                    "url": "https://mp.weixin.qq.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724120988939,
+                    "title": "视频号",
+                    "icon": "https://logo.clearbit.com/channels.weixin.qq.com",
+                    "url": "https://channels.weixin.qq.com/login.html"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724121014994,
+                    "title": "哔哩哔哩",
+                    "icon": "https://logo.clearbit.com/member.bilibili.com",
+                    "url": "https://member.bilibili.com/platform/upload/video/frame"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724120478664,
+                    "title": "小红书",
+                    "icon": "https://logo.clearbit.com/www.xiaohongshu.com",
+                    "url": "https://www.xiaohongshu.com/explore"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119656531,
+                    "title": "抖音",
+                    "icon": "https://logo.clearbit.com/www.douyin.com",
+                    "url": "https://www.douyin.com/?recommend=1"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724120497206,
+                    "title": "微博",
+                    "icon": "https://logo.clearbit.com/weibo.com",
+                    "url": "https://weibo.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119614289,
+                    "title": "抖音小店 抖店后台",
+                    "icon": "https://logo.clearbit.com/fxg.jinritemai.com",
+                    "url": "https://fxg.jinritemai.com/login/common?extra=%7B%22target_url%22%3A%22https%3A%2F%2Ffxg.jinritemai.com%2Fffa%2Fg%2Flist%22%7D"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119675189,
+                    "title": "抖音小店直播 巨量百应",
+                    "icon": "https://logo.clearbit.com/buyin.jinritemai.com",
+                    "url": "https://buyin.jinritemai.com/mpa/account/login?log_out=1&type=24"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119638211,
+                    "title": "抖音本地生活商家直播",
+                    "icon": "https://logo.clearbit.com/eos.douyin.com",
+                    "url": "https://eos.douyin.com/livesite/login"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119650361,
+                    "title": "抖音本地生活企业商家后台",
+                    "icon": "https://logo.clearbit.com/e.douyin.com",
+                    "url": "https://e.douyin.com/site/douyin-mp/login"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119595236,
+                    "title": "直播大屏·主播版",
+                    "icon": "https://logo.clearbit.com/anchor.douyin.com",
+                    "url": "https://anchor.douyin.com/login?&login_after_redirect=/anchor/dashboard"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119542360,
+                    "title": "巨量算数",
+                    "icon": "https://logo.clearbit.com/trendinsight.oceanengine.com",
+                    "url": "https://trendinsight.oceanengine.com/arithmetic-index"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119483415,
+                    "title": "巨量学",
+                    "icon": "https://logo.clearbit.com/school.oceanengine.com",
+                    "url": "https://school.oceanengine.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724119777267,
+                    "title": "蝉妈妈",
+                    "icon": "https://logo.clearbit.com/www.chanmama.com",
+                    "url": "https://www.chanmama.com/douyin/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724120453625,
+                    "title": "西瓜数据",
+                    "icon": "https://logo.clearbit.com/data.xiguaji.com",
+                    "url": "https://data.xiguaji.com/"
+                  },
+                  {
+                    "type": "link",
+                    "addDate": 1724124086809,
+                    "title": "飞瓜数据",
+                    "icon": "https://logo.clearbit.com/dy.feigua.cn",
+                    "url": "https://dy.feigua.cn/rank/tag/0/day/20240819.html?chl=feigua2"
+                  }
+                ]
+              },
+              {
                 "type": "link",
                 "addDate": 1721983199698,
                 "title": "WPS待办",
@@ -42533,6 +42652,13 @@
             "title": "骂人宝典-口吐芬芳",
             "icon": "https://logo.clearbit.com/dians.notion.site",
             "url": "https://dians.notion.site/e06768a8700e4c7ea3ba9f4fe269207e"
+          },
+          {
+            "type": "link",
+            "addDate": 1724056741515,
+            "title": "文本生成语音",
+            "icon": "https://logo.clearbit.com/tts.femoon.top",
+            "url": "https://tts.femoon.top/cn"
           }
         ]
       }
