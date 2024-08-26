@@ -461,6 +461,13 @@
                 "title": "飞瓜数据",
                 "icon": "https://logo.clearbit.com/dy.feigua.cn",
                 "url": "https://dy.feigua.cn/rank/tag/0/day/20240819.html?chl=feigua2"
+              },
+              {
+                "type": "link",
+                "addDate": 1724144709598,
+                "title": "巨量创意",
+                "icon": "https://logo.clearbit.com/cc.oceanengine.com",
+                "url": "https://cc.oceanengine.com/inspiration/home"
               }
             ]
           },
@@ -42628,7 +42635,7 @@
           },
           {
             "type": "link",
-            "title": "Crxsoso",
+            "title": "Crxsos浏览器插件",
             "icon": "https://logo.clearbit.com/www.crxsoso.com",
             "url": "https://www.crxsoso.com/"
           },
@@ -42659,6 +42666,13 @@
             "title": "文本生成语音",
             "icon": "https://logo.clearbit.com/tts.femoon.top",
             "url": "https://tts.femoon.top/cn"
+          },
+          {
+            "type": "link",
+            "addDate": 1724642120338,
+            "title": "中国科学技术大学测速网站",
+            "icon": "https://logo.clearbit.com/test.ustc.edu.cn",
+            "url": "https://test.ustc.edu.cn/"
           }
         ]
       }
