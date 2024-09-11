@@ -42673,6 +42673,76 @@
             "title": "中国科学技术大学测速网站",
             "icon": "https://logo.clearbit.com/test.ustc.edu.cn",
             "url": "https://test.ustc.edu.cn/"
+          },
+          {
+            "type": "link",
+            "addDate": 1724835924854,
+            "title": "Searchoney",
+            "icon": "https://logo.clearbit.com/searchoney.com",
+            "url": "https://searchoney.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1724891590937,
+            "title": "搜索 telegram",
+            "icon": "https://logo.clearbit.com/www.lalawe.com",
+            "url": "https://www.lalawe.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1725874136125,
+            "title": "Telegraph-Image|免费图床",
+            "icon": "https://logo.clearbit.com/img.011f.com",
+            "url": "https://img.011f.com/"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "addDate": 1726013966979,
+        "title": "ebooking",
+        "children": [
+          {
+            "type": "link",
+            "addDate": 1726013974919,
+            "title": "美团酒店EBooking",
+            "icon": "https://logo.clearbit.com/eb.meituan.com",
+            "url": "https://eb.meituan.com/ebooking/new-workbench/index.html#/"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014005741,
+            "title": "携程酒店商家管理后台",
+            "icon": "https://logo.clearbit.com/ebooking.ctrip.com",
+            "url": "https://ebooking.ctrip.com/login/index?targetPath=%2Fhome%2Fmainland"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014370111,
+            "title": " 美团民宿",
+            "icon": "https://logo.clearbit.com/passport.meituan.com",
+            "url": "https://passport.meituan.com/account/unitivelogin?service=phoenix&continue=https%3A%2F%2Fminsu.dianping.com%2Fauth%2Fauthenticated%2F%3Fcontinue%3D%252Fhouse%252Fshare%252F927886365%252Fprice%252F&risk_partner=93&risk_platform=1&risk_app=216"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014382341,
+            "title": "飞猪酒店",
+            "icon": "https://logo.clearbit.com/hotel.fliggy.com",
+            "url": "https://hotel.fliggy.com/ebooking/login.htm#/?redirectURL=https%3A%2F%2Fhotel.fliggy.com%2Febooking%2FhotelBaseInfoUv.htm"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014400227,
+            "title": "抖音来客",
+            "icon": "https://logo.clearbit.com/life.douyin.com",
+            "url": "https://life.douyin.com/p/login"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014413412,
+            "title": "途家网",
+            "icon": "https://logo.clearbit.com/passport.tujia.com",
+            "url": "https://passport.tujia.com/PortalSite/LoginPage/"
           }
         ]
       }
