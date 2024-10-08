@@ -6,10 +6,17 @@
     "children": [
       {
         "type": "link",
-        "addDate": 1718593627986,
-        "title": "小胡书签网页版",
+        "addDate": 1728350932998,
+        "title": "小胡 CFP",
+        "icon": "https://logo.clearbit.com/xhxh.vip",
+        "url": "https://xhxh.vip/"
+      },
+      {
+        "type": "link",
+        "addDate": 1704095778084,
+        "title": "小胡的书签",
         "icon": "https://logo.clearbit.com/httcup.github.io",
-        "url": "https://httcup.github.io/x/"
+        "url": "https://httcup.github.io/"
       },
       {
         "type": "folder",
@@ -342,6 +349,13 @@
                 "title": "Cloudflare",
                 "icon": "https://logo.clearbit.com/dash.cloudflare.com",
                 "url": "https://dash.cloudflare.com/"
+              },
+              {
+                "type": "link",
+                "addDate": 1728369302963,
+                "title": "扣子 Bot",
+                "icon": "https://logo.clearbit.com/www.coze.cn",
+                "url": "https://www.coze.cn/"
               }
             ]
           },
@@ -517,139 +531,6 @@
                 "title": "谷歌地图",
                 "icon": "https://logo.clearbit.com/huawei.com.tw",
                 "url": "https://huawei.com.tw/earth/"
-              }
-            ]
-          },
-          {
-            "type": "folder",
-            "addDate": 1721964621071,
-            "title": "AI 集合",
-            "children": [
-              {
-                "type": "link",
-                "addDate": 1721964964828,
-                "title": "ChatGPT",
-                "icon": "https://logo.clearbit.com/chatgpt.com",
-                "url": "https://chatgpt.com/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721964988464,
-                "title": "KIMI",
-                "icon": "https://logo.clearbit.com/kimi.moonshot.cn",
-                "url": "https://kimi.moonshot.cn/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721965010550,
-                "title": "阿里通义",
-                "icon": "https://logo.clearbit.com/tongyi.aliyun.com",
-                "url": "https://tongyi.aliyun.com/qianwen/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721965037606,
-                "title": "讯飞星火",
-                "icon": "https://logo.clearbit.com/xinghuo.xfyun.cn",
-                "url": "https://xinghuo.xfyun.cn/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981673916,
-                "title": "智谱清言",
-                "icon": "https://logo.clearbit.com/chatglm.cn",
-                "url": "https://chatglm.cn/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981696756,
-                "title": "百度文心一言",
-                "icon": "https://logo.clearbit.com/yiyan.baidu.com",
-                "url": "https://yiyan.baidu.com/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981715364,
-                "title": "抖音豆包",
-                "icon": "https://logo.clearbit.com/www.doubao.com",
-                "url": "https://www.doubao.com/chat/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981748735,
-                "title": "360智脑",
-                "icon": "https://logo.clearbit.com/chat.360.com",
-                "url": "https://chat.360.com/chat"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981765108,
-                "title": "百川智能",
-                "icon": "https://logo.clearbit.com/www.baichuan-ai.com",
-                "url": "https://www.baichuan-ai.com/home"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981789842,
-                "title": "腾讯混元",
-                "icon": "https://logo.clearbit.com/yuanbao.tencent.com",
-                "url": "https://yuanbao.tencent.com/bot/chat"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981820936,
-                "title": "海螺 AI",
-                "icon": "https://logo.clearbit.com/hailuoai.com",
-                "url": "https://hailuoai.com/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981831954,
-                "title": "紫东太初",
-                "icon": "https://logo.clearbit.com/taichu-web.ia.ac.cn",
-                "url": "https://taichu-web.ia.ac.cn/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981861180,
-                "title": "商汤商量",
-                "icon": "https://logo.clearbit.com/chat.sensetime.com",
-                "url": "https://chat.sensetime.com/wb/chat"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981866369,
-                "title": "Gnomic",
-                "icon": "https://logo.clearbit.com/www.gnomic.cn",
-                "url": "https://www.gnomic.cn/agentCenter/index"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981879340,
-                "title": "Bing AI镜像",
-                "icon": "https://logo.clearbit.com/effulgent-bubblegum-e2f5df.netlify.app",
-                "url": "https://effulgent-bubblegum-e2f5df.netlify.app/"
-              },
-              {
-                "type": "link",
-                "addDate": 1721981888582,
-                "title": "AI 导航 1",
-                "icon": "https://logo.clearbit.com/lzw.me",
-                "url": "https://lzw.me/x/chatgpt-sites/"
-              },
-              {
-                "type": "link",
-                "addDate": 1704851733373,
-                "title": "AI 导航 2",
-                "icon": "https://logo.clearbit.com/github.com",
-                "url": "https://github.com/xx025/carrot"
-              },
-              {
-                "type": "link",
-                "addDate": 1704852876464,
-                "title": "AI 导航 3",
-                "icon": "https://logo.clearbit.com/cc.ai55.cc",
-                "url": "https://cc.ai55.cc/"
               }
             ]
           },
@@ -42708,6 +42589,188 @@
             "title": "catshui",
             "icon": "https://logo.clearbit.com/dokidokiweb.com",
             "url": "https://dokidokiweb.com/"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "addDate": 1726013966979,
+        "title": "ebooking",
+        "children": [
+          {
+            "type": "link",
+            "addDate": 1726013974919,
+            "title": "美团酒店EBooking",
+            "icon": "https://logo.clearbit.com/eb.meituan.com",
+            "url": "https://eb.meituan.com/ebooking/new-workbench/index.html#/"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014005741,
+            "title": "携程酒店商家管理后台",
+            "icon": "https://logo.clearbit.com/ebooking.ctrip.com",
+            "url": "https://ebooking.ctrip.com/login/index?targetPath=%2Fhome%2Fmainland"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014370111,
+            "title": " 美团民宿",
+            "icon": "https://logo.clearbit.com/passport.meituan.com",
+            "url": "https://passport.meituan.com/account/unitivelogin?service=phoenix&continue=https%3A%2F%2Fminsu.dianping.com%2Fauth%2Fauthenticated%2F%3Fcontinue%3D%252Fhouse%252Fshare%252F927886365%252Fprice%252F&risk_partner=93&risk_platform=1&risk_app=216"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014382341,
+            "title": "飞猪酒店",
+            "icon": "https://logo.clearbit.com/hotel.fliggy.com",
+            "url": "https://hotel.fliggy.com/ebooking/login.htm#/?redirectURL=https%3A%2F%2Fhotel.fliggy.com%2Febooking%2FhotelBaseInfoUv.htm"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014400227,
+            "title": "抖音来客",
+            "icon": "https://logo.clearbit.com/life.douyin.com",
+            "url": "https://life.douyin.com/p/login"
+          },
+          {
+            "type": "link",
+            "addDate": 1726014413412,
+            "title": "途家网",
+            "icon": "https://logo.clearbit.com/passport.tujia.com",
+            "url": "https://passport.tujia.com/PortalSite/LoginPage/"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "addDate": 1721964621071,
+        "title": "AI 集合",
+        "children": [
+          {
+            "type": "link",
+            "addDate": 1721964964828,
+            "title": "ChatGPT",
+            "icon": "https://logo.clearbit.com/chatgpt.com",
+            "url": "https://chatgpt.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721964988464,
+            "title": "KIMI",
+            "icon": "https://logo.clearbit.com/kimi.moonshot.cn",
+            "url": "https://kimi.moonshot.cn/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721965010550,
+            "title": "阿里通义",
+            "icon": "https://logo.clearbit.com/tongyi.aliyun.com",
+            "url": "https://tongyi.aliyun.com/qianwen/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721965037606,
+            "title": "讯飞星火",
+            "icon": "https://logo.clearbit.com/xinghuo.xfyun.cn",
+            "url": "https://xinghuo.xfyun.cn/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981673916,
+            "title": "智谱清言",
+            "icon": "https://logo.clearbit.com/chatglm.cn",
+            "url": "https://chatglm.cn/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981696756,
+            "title": "百度文心一言",
+            "icon": "https://logo.clearbit.com/yiyan.baidu.com",
+            "url": "https://yiyan.baidu.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981715364,
+            "title": "抖音豆包",
+            "icon": "https://logo.clearbit.com/www.doubao.com",
+            "url": "https://www.doubao.com/chat/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981748735,
+            "title": "360智脑",
+            "icon": "https://logo.clearbit.com/chat.360.com",
+            "url": "https://chat.360.com/chat"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981765108,
+            "title": "百川智能",
+            "icon": "https://logo.clearbit.com/www.baichuan-ai.com",
+            "url": "https://www.baichuan-ai.com/home"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981789842,
+            "title": "腾讯混元",
+            "icon": "https://logo.clearbit.com/yuanbao.tencent.com",
+            "url": "https://yuanbao.tencent.com/bot/chat"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981820936,
+            "title": "海螺 AI",
+            "icon": "https://logo.clearbit.com/hailuoai.com",
+            "url": "https://hailuoai.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981831954,
+            "title": "紫东太初",
+            "icon": "https://logo.clearbit.com/taichu-web.ia.ac.cn",
+            "url": "https://taichu-web.ia.ac.cn/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981861180,
+            "title": "商汤商量",
+            "icon": "https://logo.clearbit.com/chat.sensetime.com",
+            "url": "https://chat.sensetime.com/wb/chat"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981866369,
+            "title": "Gnomic",
+            "icon": "https://logo.clearbit.com/www.gnomic.cn",
+            "url": "https://www.gnomic.cn/agentCenter/index"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981879340,
+            "title": "Bing AI镜像",
+            "icon": "https://logo.clearbit.com/effulgent-bubblegum-e2f5df.netlify.app",
+            "url": "https://effulgent-bubblegum-e2f5df.netlify.app/"
+          },
+          {
+            "type": "link",
+            "addDate": 1721981888582,
+            "title": "AI 导航 1",
+            "icon": "https://logo.clearbit.com/lzw.me",
+            "url": "https://lzw.me/x/chatgpt-sites/"
+          },
+          {
+            "type": "link",
+            "addDate": 1704851733373,
+            "title": "AI 导航 2",
+            "icon": "https://logo.clearbit.com/github.com",
+            "url": "https://github.com/xx025/carrot"
+          },
+          {
+            "type": "link",
+            "addDate": 1704852876464,
+            "title": "AI 导航 3",
+            "icon": "https://logo.clearbit.com/cc.ai55.cc",
+            "url": "https://cc.ai55.cc/"
           }
         ]
       },
