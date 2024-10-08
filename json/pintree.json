@@ -6,13 +6,6 @@
     "children": [
       {
         "type": "link",
-        "addDate": 1722247088456,
-        "title": "临时记事本",
-        "icon": "https://logo.clearbit.com/",
-        "url": "javascript: (function(){ window.open('https://httcup.github.io/pad/', 'window', 'width=600,height=600'); })()"
-      },
-      {
-        "type": "link",
         "addDate": 1718593627986,
         "title": "小胡书签网页版",
         "icon": "https://logo.clearbit.com/httcup.github.io",
@@ -342,6 +335,13 @@
                 "title": "Mac",
                 "icon": "https://logo.clearbit.com/sunlogin.oray.com",
                 "url": "https://sunlogin.oray.com/share?shareid=1441678765"
+              },
+              {
+                "type": "link",
+                "addDate": 1728350718063,
+                "title": "Cloudflare",
+                "icon": "https://logo.clearbit.com/dash.cloudflare.com",
+                "url": "https://dash.cloudflare.com/"
               }
             ]
           },
@@ -42694,57 +42694,29 @@
             "title": "Telegraph-Image|免费图床",
             "icon": "https://logo.clearbit.com/img.011f.com",
             "url": "https://img.011f.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1727407746692,
+            "title": "SakuraCat",
+            "icon": "https://logo.clearbit.com/sakuracat-c.com",
+            "url": "https://sakuracat-c.com/plan"
+          },
+          {
+            "type": "link",
+            "addDate": 1727407865758,
+            "title": "catshui",
+            "icon": "https://logo.clearbit.com/dokidokiweb.com",
+            "url": "https://dokidokiweb.com/"
           }
         ]
       },
       {
-        "type": "folder",
-        "addDate": 1726013966979,
-        "title": "ebooking",
-        "children": [
-          {
-            "type": "link",
-            "addDate": 1726013974919,
-            "title": "美团酒店EBooking",
-            "icon": "https://logo.clearbit.com/eb.meituan.com",
-            "url": "https://eb.meituan.com/ebooking/new-workbench/index.html#/"
-          },
-          {
-            "type": "link",
-            "addDate": 1726014005741,
-            "title": "携程酒店商家管理后台",
-            "icon": "https://logo.clearbit.com/ebooking.ctrip.com",
-            "url": "https://ebooking.ctrip.com/login/index?targetPath=%2Fhome%2Fmainland"
-          },
-          {
-            "type": "link",
-            "addDate": 1726014370111,
-            "title": " 美团民宿",
-            "icon": "https://logo.clearbit.com/passport.meituan.com",
-            "url": "https://passport.meituan.com/account/unitivelogin?service=phoenix&continue=https%3A%2F%2Fminsu.dianping.com%2Fauth%2Fauthenticated%2F%3Fcontinue%3D%252Fhouse%252Fshare%252F927886365%252Fprice%252F&risk_partner=93&risk_platform=1&risk_app=216"
-          },
-          {
-            "type": "link",
-            "addDate": 1726014382341,
-            "title": "飞猪酒店",
-            "icon": "https://logo.clearbit.com/hotel.fliggy.com",
-            "url": "https://hotel.fliggy.com/ebooking/login.htm#/?redirectURL=https%3A%2F%2Fhotel.fliggy.com%2Febooking%2FhotelBaseInfoUv.htm"
-          },
-          {
-            "type": "link",
-            "addDate": 1726014400227,
-            "title": "抖音来客",
-            "icon": "https://logo.clearbit.com/life.douyin.com",
-            "url": "https://life.douyin.com/p/login"
-          },
-          {
-            "type": "link",
-            "addDate": 1726014413412,
-            "title": "途家网",
-            "icon": "https://logo.clearbit.com/passport.tujia.com",
-            "url": "https://passport.tujia.com/PortalSite/LoginPage/"
-          }
-        ]
+        "type": "link",
+        "addDate": 1727407561791,
+        "title": "Kimi",
+        "icon": "https://logo.clearbit.com/kimi.moonshot.cn",
+        "url": "https://kimi.moonshot.cn/"
       }
     ]
   }
