@@ -13,10 +13,10 @@
       },
       {
         "type": "link",
-        "addDate": 1704095778084,
-        "title": "小胡的书签",
+        "addDate": 1718593627986,
+        "title": "小胡书签网页版",
         "icon": "https://logo.clearbit.com/httcup.github.io",
-        "url": "https://httcup.github.io/"
+        "url": "https://httcup.github.io/x/"
       },
       {
         "type": "folder",
@@ -44,6 +44,13 @@
               },
               {
                 "type": "link",
+                "addDate": 1729045632858,
+                "title": "虫部落论坛",
+                "icon": "https://logo.clearbit.com/www.chongbuluo.com",
+                "url": "https://www.chongbuluo.com/"
+              },
+              {
+                "type": "link",
                 "addDate": 1721983255487,
                 "title": "小红书",
                 "icon": "https://logo.clearbit.com/www.xiaohongshu.com",
@@ -54,7 +61,7 @@
                 "addDate": 1721983278109,
                 "title": "微博",
                 "icon": "https://logo.clearbit.com/weibo.com",
-                "url": "https://weibo.com/"
+                "url": "https://weibo.com/mygroups?gid=110003205039867"
               },
               {
                 "type": "link",
@@ -356,6 +363,13 @@
                 "title": "扣子 Bot",
                 "icon": "https://logo.clearbit.com/www.coze.cn",
                 "url": "https://www.coze.cn/"
+              },
+              {
+                "type": "link",
+                "addDate": 1728629110752,
+                "title": "【趣域网】",
+                "icon": "https://logo.clearbit.com/www.quyu.net",
+                "url": "https://www.quyu.net/"
               }
             ]
           },
@@ -42589,6 +42603,62 @@
             "title": "catshui",
             "icon": "https://logo.clearbit.com/dokidokiweb.com",
             "url": "https://dokidokiweb.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1728437556057,
+            "title": "云端奇趣 | 分享各种网盘资源,考公资源,三支一扶,申论真题,影视资源,AI工具,收集各种有趣实用的软件，尽享全网云盘资源免费分享",
+            "icon": "https://logo.clearbit.com/www.yunduanqiqu.com",
+            "url": "https://www.yunduanqiqu.com/"
+          },
+          {
+            "type": "link",
+            "addDate": 1728437598491,
+            "title": "SoftWare List",
+            "icon": "https://logo.clearbit.com/flowus.cn",
+            "url": "https://flowus.cn/rico/share/abc32d74-072a-4e22-8e63-1a9574b07953?code=ERGYSM"
+          },
+          {
+            "type": "link",
+            "addDate": 1728437727972,
+            "title": "呵呵动漫_免费动漫_在线观看",
+            "icon": "https://logo.clearbit.com/20241009093c894d13b4122806cbcdad6fa44989a4.dididi.cc",
+            "url": "https://20241009093c894d13b4122806cbcdad6fa44989a4.dididi.cc/?ref=iui.su"
+          },
+          {
+            "type": "link",
+            "addDate": 1728461793485,
+            "title": "1000UserGuide",
+            "icon": "https://logo.clearbit.com/1000userguide.com",
+            "url": "https://1000userguide.com/#/"
+          },
+          {
+            "type": "link",
+            "addDate": 1728461835727,
+            "title": "indie-hackers-guide",
+            "icon": "https://logo.clearbit.com/indie-hackers-guide.pages.dev",
+            "url": "https://indie-hackers-guide.pages.dev/#/"
+          },
+          {
+            "type": "link",
+            "addDate": 1728525085220,
+            "title": "伊萨书签 | 专注收集分享优质网址书签资源的导航网站!",
+            "icon": "https://logo.clearbit.com/www.ysa.cc",
+            "url": "https://www.ysa.cc/"
+          },
+          {
+            "type": "link",
+            "addDate": 1728866578855,
+            "title": "Math.nowAI数学求解器",
+            "icon": "https://logo.clearbit.com/math.now",
+            "url": "https://math.now/zh-CN"
+          },
+          {
+            "type": "link",
+            "addDate": 1728982180401,
+            "title": "安卓应用多开",
+            "icon": "https://logo.clearbit.com/iofomo.com",
+            "url": "https://iofomo.com/"
           }
         ]
       },
